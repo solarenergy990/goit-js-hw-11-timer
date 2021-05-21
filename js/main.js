@@ -5,10 +5,6 @@ const refs = {
   secondsContainer: document.querySelector('.value[data-value="secs"]'),
 };
 
-// function init() {
-//   const time = this.getTimeComponents(0);
-//   this.onTick(time);
-// }
 class CountdownTimer {
   constructor({ onTick, targetDate }) {
     this.intervalId = null;
