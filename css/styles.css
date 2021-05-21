@@ -1,3 +1,22 @@
 .font {
   font-family: inherit;
 }
+.timer {
+  display: flex;
+  justify-content: center;
+}
+.field {
+  margin-right: 50px;
+}
+
+.value {
+  font-size: 50px;
+  background-color: tomato;
+  border-radius: 15px;
+}
+
+.label {
+  font-size: 50px;
+  background-color: lightgreen;
+  border-radius: 15px;
+}
